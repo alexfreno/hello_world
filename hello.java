@@ -6,10 +6,11 @@ public class hello {
 
 
 	
-	// added  line	
-	// added another line
+	string name;	
+	system.out.println("What is your name?");
+	name = user_input.next();
 
-        System.out.println("Hello Class!");
+        System.out.println("Hello " + name + ", my name is Alex.");
 
 
 
